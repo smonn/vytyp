@@ -1,6 +1,7 @@
 /// <reference types="vitest" />
 import { defineConfig } from 'vite';
 
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 import viteTsConfigPaths from 'vite-tsconfig-paths';
 import dts from 'vite-plugin-dts';
 import { join } from 'path';
@@ -17,6 +18,15 @@ export default defineConfig({
 
     viteTsConfigPaths({
       root: '../../',
+    }),
+
+    viteStaticCopy({
+      targets: [
+        {
+          src: './README.md',
+          dest: './',
+        },
+      ],
     }),
   ],
 

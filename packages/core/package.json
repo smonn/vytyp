@@ -1,11 +1,13 @@
 {
-  "name": "@vytyp/core",
-  "version": "0.0.0",
-  "type": "commonjs",
-  "main": "index.js",
-  "module": "index.mjs",
+  "description": "Core library for vytyp that provides the ViewModel class",
   "exports": {
     "import": "./index.mjs",
     "require": "./index.js"
-  }
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.mjs",
+  "name": "@vytyp/core",
+  "type": "commonjs",
+  "version": "0.0.0"
 }
