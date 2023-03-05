@@ -14,6 +14,7 @@ importers:
       '@typescript-eslint/parser': 5.54.0
       '@vitest/coverage-c8': 0.29.2
       '@vitest/ui': 0.29.2
+      chalk: 5.2.0
       eslint: 8.35.0
       eslint-config-prettier: 8.6.0
       eslint-plugin-prettier: 4.2.1
@@ -37,6 +38,7 @@ importers:
       '@typescript-eslint/parser': 5.54.0_ycpbpc6yetojsgtrx3mwntkhsu
       '@vitest/coverage-c8': 0.29.2_vitest@0.29.2
       '@vitest/ui': 0.29.2
+      chalk: 5.2.0
       eslint: 8.35.0
       eslint-config-prettier: 8.6.0_eslint@8.35.0
       eslint-plugin-prettier: 4.2.1_u2zha4kiojzs42thzpgwygphmy
@@ -2623,6 +2625,11 @@ packages:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
+    dev: true
+
+  /chalk/5.2.0:
+    resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
   /check-error/1.0.2:
