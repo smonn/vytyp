@@ -3,6 +3,10 @@
 Provides the `ViewModel` class to extend. It implements the observer pattern to
 subscribe to any class property changes.
 
+Also see:
+
+- [@vytyp/react](https://npmjs.org/package/@vytyp/react)
+
 ```ts
 import { ViewModel } from '@vytyp/core';
 
