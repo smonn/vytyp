@@ -8,6 +8,11 @@
   "main": "index.js",
   "module": "index.mjs",
   "name": "@vytyp/core",
+  "repository": {
+    "directory": "packages/core",
+    "type": "git",
+    "url": "https://github.com/smonn/vytyp.git"
+  },
   "type": "commonjs",
   "version": "0.0.0"
 }
