@@ -4,6 +4,12 @@
     "import": "./index.mjs",
     "require": "./index.js"
   },
+  "keywords": [
+    "vytyp",
+    "typescript",
+    "view model",
+    "reactive"
+  ],
   "license": "MIT",
   "main": "index.js",
   "module": "index.mjs",

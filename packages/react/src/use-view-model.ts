@@ -1,4 +1,4 @@
-import type { ViewModel } from '@vytyp/core';
+import { ViewModel } from '@vytyp/core';
 import { useEffect, useState } from 'react';
 import { useForceUpdate } from './use-force-update';
 
@@ -23,7 +23,15 @@ export function useViewModel<T extends ViewModel, Args extends any[]>(
   );
 
   // both viewModel and forceUpdate are stable
-  useEffect(() => viewModel.subscribe(forceUpdate), []);
+  useEffect(() => {
+    if (viewModel instanceof ViewModel) {
+      return viewModel.subscribe(forceUpdate);
+    }
+
+    return () => {
+      // no-op
+    };
+  }, []);
 
   return viewModel;
 }

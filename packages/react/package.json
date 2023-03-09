@@ -10,6 +10,14 @@
     "import": "./index.mjs",
     "require": "./index.js"
   },
+  "keywords": [
+    "react",
+    "vytyp",
+    "react-hook",
+    "typescript",
+    "view model",
+    "reactive"
+  ],
   "license": "MIT",
   "main": "index.js",
   "module": "index.mjs",
